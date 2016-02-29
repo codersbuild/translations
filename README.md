@@ -28,13 +28,13 @@ git push origin BRANCH_NAME
 ```
 
 
-Creating a Translation
+Creating / Updating a Translation
 ---
 
 Each supported language should be contained in its own folder within `./src` using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language.
 For example, the English language should be in the `./src/en` folder.
 
-__Instructions:__
+__Instructions:__ _( steps 1 & 2 are only needed for NEW languages )_
 
 1. Copy `./src/en` as the base for your new translation
 2. Place your copy of `./src/en` into `./src` giving it a new name using the correct two character [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
