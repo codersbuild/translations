@@ -18,68 +18,18 @@ __Instructions:__
 4. Run `grunt build` and fix any errors it finds
 5. __[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
 
-Grunt Terminal Commands:
+Installation:
 ---
 
-You can use the following build commands via terminal ( make sure you are in `/path/to/translations` ):
-
-#### Build for Distribution:
-
-The following command will compile JSON files for Distribution.
+You can easily contribute to this project by doing the following ( replace LANGUAGE_NAME with English "Language Name" from the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) ):
 
 ```bash
-grunt build
-```
+git clone git@github.com:codersbuild/translations.git
+git checkout -b LANGUAGE_NAME
 
-#### Create a Release:
+# Make your changes as discussed in Creating a Translation File
 
-```bash
-grunt release
-```
+git push origin LANGUAGE_NAME
 
-#### Create a Major Release:
-
-The following will:
-
-1. Increase the build's major number ( e.g. v __0__.5.1 => v __1__.0.0 )
-2. Build & Package Distribution Files
-3. Perform a git commit
-
-```bash
-grunt release-major
-```
-
-#### Create a Minor Release:
-
-The following will:
-
-1. Increase the build's minor number ( e.g. v 0.__5__.1 => v 0.__6__.0 )
-2. Build & Package Distribution Files
-3. Perform a git commit
-
-```bash
-grunt release-minor
-```
-
-#### Create a Release Patch:
-
-The following will:
-
-1. Increase the build's patch number ( e.g. v 0.5.__1__ => v 0.5.__2__ )
-2. Build & Package Distribution Files
-3. Perform a git commit
-
-```bash
-grunt release-patch
-```
-
-#### Create a Pre-Release:
-
-The following will:
-
-1. Build & Package Distribution Files
-2. Perform a git commit
-
-```bash
-grunt prerelease
+# Submit Pull Request
 ```
