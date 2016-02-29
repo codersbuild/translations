@@ -7,7 +7,7 @@ Coders Build Web App Translations used on https://coders.build
 Creating a Translation File
 ===
 
-Each supported language should be contained within its own folder within `./src` using the ISO 639-1 code for that language.
+Each supported language should be contained within its own folder within `./src` using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language.
 For example, the English language should be in the `./src/en` folder.
 
 __Instructions:__
