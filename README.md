@@ -14,9 +14,9 @@ __Rules:__
 
 * Copy `./src/en` as the base for your new translation
 * Place your copy of `./src/en` into `./src` with a new name using the correct two character [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+* Update the `VALUE` for each `KEY` into the language you are contributing. __DO NOT CHANGE THE KEY__, only the `VALUE`.  e.g. `{ "greeting": "Hello World" }` to `{ "greeting": "Hola Mundo" }`
 * Run `grunt build` and fix any errors it finds
-
-__[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
+* __[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
 
 Grunt Terminal Commands:
 ---
