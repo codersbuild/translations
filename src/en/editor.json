@@ -1,0 +1,55 @@
+{
+  "buttons": {
+    "fullScreen": "Full Screen Mode",
+    "fullScreenExit": "Exit Full Screen",
+    "addContent": "Add Content",
+    "projectSettings": "Project Settings",
+    "codeClean": "Code Perfection",
+    "codeHasError": "Your Code has {COUNT} {ERRORS}",
+    "toggleEditor": "Toggle Editor",
+    "togglePreview": "Toggle Preview",
+    "autoSaveOn": "Auto Save ON",
+    "autoSaveOff": "Auto Save OFF",
+    "autoPreviewOn": "Auto Preview ON",
+    "autoPreviewOff": "Auto Preview OFF",
+    "centerEditorPreview": "Center Editor & Preview",
+    "keyboardShortcuts": "Keyboard Shortcuts"
+  },
+  "library": {
+    "tooltip": {
+      "html": "Create HTML File",
+      "css": "Create CSS File",
+      "js": "Create JS File",
+      "asset": "Insert Asset",
+      "package": "Insert Package",
+      "snippet": "Insert Snippet"
+    },
+    "button": {
+      "html": "HTML",
+      "css": "CSS",
+      "js": "JS",
+      "asset": "Asset",
+      "package": "Package",
+      "snippet": "Snippet"
+    }
+  },
+  "settings": {
+    "tooltip": {
+      "editor": "Editor Settings",
+      "console": "Javascript Console",
+      "versions": "Project Version History",
+      "download": "Download Project",
+      "export": "Export Project",
+      "embed": "Get Embed Code"
+    },
+    "button": {
+      "editor": "Editor",
+      "console": "Console",
+      "versions": "Versions",
+      "download": "Download",
+      "export": "Export",
+      "embed": "Embed"
+    }
+  },
+  "console": "Type Javascript Command"
+}

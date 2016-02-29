@@ -1,0 +1,35 @@
+{
+  "placeholder": "Type keyword",
+  "button": "Search",
+  "results": "Results found for:",
+  "projects": "Projects",
+  "coders": "Coders",
+  "noProjects": "There are no Projects matching",
+  "noCoders": "There are no Coders matching",
+  "filter": {
+    "projects": {
+      "button": "Which Projects",
+      "all": "All Projects",
+      "mine": "My Projects",
+      "following": "Following Projects",
+      "followers": "Followers Projects"
+    },
+    "sort": {
+      "button": "Sort By",
+      "views": "Most Views",
+      "likes": "Most Likes",
+      "comments": "Most Comments",
+      "recent": "Recently Added"
+    },
+    "what": {
+      "button": "What to Search",
+      "all": "Source Code & Meta Data",
+      "source": "Source Code Only",
+      "meta": "Meta Data Only"
+    },
+    "include": {
+      "button": "Include",
+      "forks": "Project Forks"
+    }
+  }
+}

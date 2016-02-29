@@ -1,0 +1,11 @@
+{
+  "nav": {
+    "mobileButton": "Settings Menu",
+    "profile": "Public Profile",
+    "account": "Your Account",
+    "socialLinks": "Social Links",
+    "emailNotifications": "Email Notifications",
+    "webNotifications": "Web Notifications",
+    "codeEditor": "Code Editor"
+  }
+}

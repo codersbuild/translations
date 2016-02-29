@@ -1,0 +1,27 @@
+{
+  "header": "Register for Coders Build",
+  "username": {
+    "label": "Username",
+    "help": "Length: 3-30, Allowed: a-Z0-9_"
+  },
+  "password": {
+    "label": "Password",
+    "help": "Length: 6+"
+  },
+  "email": {
+    "label": "Email Address"
+  },
+  "agreeTo": "Agree to",
+  "terms": "Terms & Policy",
+  "github": "Register using Github",
+  "bitbucket": "Register using Bitbucket",
+  "twitter": "Register using Twitter",
+  "button": "Register",
+  "login": "Login",
+  "success": {
+    "header": "Woo Hoo !!!",
+    "message": "Account created. Please check your email for an activation link."
+  },
+  "haveAccount": "Already have an account ?",
+  "activateAccount": "Activated your account ?"
+}

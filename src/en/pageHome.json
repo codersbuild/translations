@@ -1,0 +1,12 @@
+{
+  "stats": {
+    "projects": "Projects",
+    "members": "Members",
+    "libraries": "Libraries"
+  },
+  "nav": {
+    "mostViews": "Most Views",
+    "mostLikes": "Most Likes",
+    "mostComments": "Most Comments"
+  }
+}

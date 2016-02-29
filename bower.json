@@ -1,0 +1,23 @@
+{
+  "name": "codersbuild-translations",
+  "version": "0.1.0",
+  "homepage": "https://coders.build",
+  "authors": [
+    "CodersBuild"
+  ],
+  "license": "(MIT OR GPL-3.0)",
+  "description": "Coders Build Web App Translations",
+  "keywords": [
+    "language",
+    "translations",
+    "codersbuild"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codersbuild/translations"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules"
+  ]
+}

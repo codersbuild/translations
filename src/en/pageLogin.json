@@ -1,0 +1,35 @@
+{
+  "header": "Login to Coders Build",
+  "username": "Username",
+  "password": "Password",
+  "github": "Login using Github",
+  "bitbucket": "Login using Bitbucket",
+  "twitter": "Login using Twitter",
+  "button": "Login",
+  "forgotPassword": "Forgot Password ?",
+  "register": "Register",
+  "noAccount": "Don't have an account ?",
+  "success": {
+    "header": "Email Sent",
+    "message": "Please check your email for an activation link."
+  },
+  "error": {
+    "header": "Oh No !!!",
+    "message": "There seems to be a problem with your account.",
+    "button": "Get Help"
+  },
+  "inactive": {
+    "header": "Inactive",
+    "message": "Please click the confirmation link we sent to you at:",
+    "button": "Resend Email"
+  },
+  "banned": {
+    "header": "Banned",
+    "message": "Your Account has been banned for violating our",
+    "banned": "Contact Support",
+    "banHeader": "What did I do ?",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfUse": "Terms or Use",
+    "andOr": "and/or"
+  }
+}

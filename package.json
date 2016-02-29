@@ -1,0 +1,38 @@
+{
+  "name": "codersbuild-translations",
+  "version": "0.1.0",
+  "license": "(MIT OR GPL-3.0)",
+  "description": "Coders Build Web App Translations",
+  "scripts": {
+    "postinstall": "grunt build"
+  },
+  "keywords": [
+    "language",
+    "translations",
+    "codersbuild"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/codersbuild/translations"
+  },
+  "author": {
+    "name": "Coders Build",
+    "email": "hello@coders.build",
+    "url": "https://coders.build"
+  },
+  "devDependencies": {
+    "del": "^1.1.1",
+    "eslint": "^0.21.0",
+    "eslint-plugin-json": "~1.2.0",
+    "grunt": "^0.4.5",
+    "grunt-bump": "0.0.15",
+    "grunt-changelog": "^0.2.2",
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "*",
+    "grunt-contrib-copy": "^0.5.0",
+    "grunt-merge-data": "^0.4.4",
+    "grunt-shell": "^1.1.1",
+    "gruntfile-gtx": "^0.3.0",
+    "require-directory": "^2.0.0"
+  }
+}

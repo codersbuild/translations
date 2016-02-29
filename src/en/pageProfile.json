@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "follower": "Follower",
+    "followers": "Followers",
+    "following": "Following",
+    "activity": "Activity",
+    "activities": "Activities",
+    "notification": "Notification",
+    "notifications": "Notifications"
+  },
+  "nav": {
+    "projects": "Projects",
+    "liked": "Liked",
+    "forked": "Forked",
+    "tags": "Tags"
+  },
+  "projects": {
+    "featured": "Featured",
+    "views": "Most Views",
+    "likes": "Most Likes",
+    "comments": "Most Comments",
+    "recent": "Recently Added"
+  },
+  "search": "Search Projects ...",
+  "whoToFollow": "Who to Follow",
+  "updates": "Coders Build Updates"
+}
