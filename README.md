@@ -13,9 +13,10 @@ For example, the English language should be in the `./src/en` folder.
 __Rules:__
 
 * Copy `./src/en` as the base for your new translation
-* Place your copy of `./src/en` into `./src` with a new name using the correct ISO 639-1 code
+* Place your copy of `./src/en` into `./src` with a new name using the correct two character [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
 * Run `grunt build` and fix any errors it finds
-* Submit Pull Request
+
+__[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
 
 Grunt Terminal Commands:
 ---
