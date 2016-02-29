@@ -4,8 +4,32 @@ Translations
 Coders Build Web App Translations used on https://coders.build
 
 
-Creating a Translation File
-===
+Installation:
+---
+
+#### You can easily contribute to this project by doing the following:
+
+_NOTE: Replace BRANCH_NAME with lowercase English "Language Name" from the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)_
+
+```bash
+# Clone Repository
+git clone git@github.com:codersbuild/translations.git
+
+# Create your own Branch
+git checkout -b BRANCH_NAME
+
+# ... Make your changes as discussed in "Creating a Translation"
+
+# Commit & Push your Branch
+git commit -m "Your Commit Message"
+git push origin BRANCH_NAME
+
+# ... Submit Pull Request at https://github.com/codersbuild/translations/pull/new/master
+```
+
+
+Creating a Translation
+---
 
 Each supported language should be contained within its own folder within `./src` using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language.
 For example, the English language should be in the `./src/en` folder.
@@ -18,18 +42,3 @@ __Instructions:__
 4. Run `grunt build` and fix any errors it finds
 5. __[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
 
-Installation:
----
-
-You can easily contribute to this project by doing the following ( replace LANGUAGE_NAME with English "Language Name" from the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) ):
-
-```bash
-git clone git@github.com:codersbuild/translations.git
-git checkout -b LANGUAGE_NAME
-
-# Make your changes as discussed in Creating a Translation File
-
-git push origin LANGUAGE_NAME
-
-# Submit Pull Request
-```
