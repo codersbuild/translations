@@ -31,14 +31,14 @@ git push origin BRANCH_NAME
 Creating a Translation
 ---
 
-Each supported language should be contained within its own folder within `./src` using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language.
+Each supported language should be contained in its own folder within `./src` using the [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes) for that language.
 For example, the English language should be in the `./src/en` folder.
 
 __Instructions:__
 
 1. Copy `./src/en` as the base for your new translation
-2. Place your copy of `./src/en` into `./src` with a new name using the correct two character [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
-3. Update the `VALUE` for each `KEY` into the language you are contributing. __DO NOT CHANGE THE KEY__, only the `VALUE`.  e.g. `{ "greeting": "Hello World" }` to `{ "greeting": "Hola Mundo" }`
+2. Place your copy of `./src/en` into `./src` giving it a new name using the correct two character [ISO 639-1 code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes)
+3. Update the `VALUE` for each `KEY` for all files in the language you are contributing. __DO NOT CHANGE THE KEY__, only the `VALUE`.  e.g. `{ "greeting": "Hello World" }` to `{ "greeting": "Hola Mundo" }`
 4. Run `grunt build` and fix any errors it finds
 5. __[Submit Pull Request](https://github.com/codersbuild/translations/pull/new/master)__
 
