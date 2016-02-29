@@ -18,7 +18,7 @@ git clone git@github.com:codersbuild/translations.git
 # Create your own Branch
 git checkout -b BRANCH_NAME
 
-# ... Make your changes as discussed in "Creating a Translation"
+# ... Make your changes as discussed in "Creating / Updating a Translation"
 
 # Commit & Push your Branch
 git commit -m "Your Commit Message"
